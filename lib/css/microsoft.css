@@ -1,0 +1,118 @@
+/**
+ * Microsoft code theme for reveal.js.
+ *
+ * Copyright (c) 2015 Daniel Perez Alvarez
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.hljs .hljs-comment,
+.hljs.diff .hljs-header,
+.hljs .hljs-javadoc {
+  color: #737373;
+  font-style: italic;
+}
+
+.hljs .hljs-keyword,
+.hljs.css .rule .hljs-keyword,
+.hljs .hljs-winutils,
+.hljs.nginx .hljs-title,
+.hljs .hljs-subst,
+.hljs .hljs-request,
+.hljs .hljs-status {
+  color: #505050;
+  font-weight: bold;
+}
+
+.hljs .hljs-number,
+.hljs .hljs-hexcolor,
+.hljs.ruby .hljs-constant {
+  color: #008272;
+}
+
+.hljs .hljs-string,
+.hljs .hljs-label,
+.hljs .hljs-tag .hljs-value,
+.hljs .hljs-phpdoc,
+.hljs .hljs-dartdoc,
+.hljs.tex .hljs-formula {
+  color: #E81123;
+}
+
+.hljs .hljs-title,
+.hljs .hljs-id,
+.hljs.scss .hljs-preprocessor {
+  color: #A80000;
+  font-weight: bold;
+}
+
+.hljs .hljs-list .hljs-keyword,
+.hljs .hljs-subst {
+  font-weight: normal;
+}
+
+.hljs .hljs-class .hljs-title,
+.hljs .hljs-type,
+.hljs.vhdl .hljs-literal,
+.hljs.tex .hljs-command {
+  font-weight: bold;
+}
+
+.hljs .hljs-tag,
+.hljs .hljs-tag .hljs-title,
+.hljs .hljs-rule .hljs-property,
+.hljs.django .hljs-tag .hljs-keyword {
+  color: #008272;
+  font-weight: normal;
+}
+
+.hljs .hljs-attribute,
+.hljs .hljs-variable,
+.hljs.lisp .hljs-body,
+.hljs .hljs-name {
+  color: #008272;
+}
+
+.hljs .hljs-regexp {
+  color: #0078D7;
+}
+
+.hljs .hljs-symbol,
+.hljs.ruby .hljs-symbol .hljs-string,
+.hljs.lisp .hljs-keyword,
+.hljs.clojure .hljs-keyword,
+.hljs.scheme .hljs-keyword,
+.hljs.tex .hljs-special,
+.hljs .hljs-prompt {
+  color: #B4009E;
+}
+
+.hljs .hljs-preprocessor,
+.hljs .hljs-pragma,
+.hljs .hljs-pi,
+.hljs .hljs-doctype,
+.hljs .hljs-shebang,
+.hljs .hljs-cdata {
+  color: #505050;
+  font-weight: bold;
+}
+
+.hljs .hljs-deletion {
+  background: #FDD;
+}
+
+.hljs .hljs-addition {
+  background: #DFD;
+}
+
+.hljs.diff .hljs-change {
+  background: #008272;
+}
+
+.hljs .hljs-chunk {
+  color: #AAA;
+}
